@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/player"/>
+    <qresource prefix="/new/prefix1">
+        <file>Chicken.png</file>
+        <file>red laser.png</file>
+        <file>ship.png</file>
+    </qresource>
+</RCC>
