@@ -42,4 +42,5 @@ DISTFILES += \
     ship.png
 
 RESOURCES += \
-    images.qrc
+    images.qrc \
+    sounds.qrc

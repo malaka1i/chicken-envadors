@@ -10,7 +10,7 @@
 #include "health_score.h"
 
 // #include"main.cpp"
-// #include <QMediaPlayer>
+#include <QMediaPlayer>
 
 
 class Player;

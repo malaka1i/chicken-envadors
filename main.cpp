@@ -7,7 +7,7 @@
 #include <QDebug>
 #include <QBrush>
 // #include "health_score.h"
-// #include <QMediaPlayer>
+#include <QMediaPlayer>
     int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -59,9 +59,9 @@
     // scene -> addItem(health);
     // qDebug() << "HEY THERE";
     // //sound
-    // // QMediaPlayer* bullet = new QMediaPlayer();
-    // // bullet->setMedia(":/sounds/laser sound.mp3");
-    // // bullet -> play();
+     QMediaPlayer* bullet = new QMediaPlayer();
+     bullet->setMedia(":/soundssss/laser sound.mp3");
+    bullet -> play();
 
     return a.exec();
 }

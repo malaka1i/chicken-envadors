@@ -26,8 +26,8 @@ health_score* Player :: get_health (){
 }
 void Player::keyPressEvent(QKeyEvent *event)
 {
-    // bulletsound = new QMediaPlayer();
-    // bullet->setMedia(":/sounds/laser sound.mp3");
+     bulletsound = new QMediaPlayer();
+     bullet->setMedia(":/soundssss/laser sound.mp3");
 
     // *  Event Handling for the Player **
 
@@ -51,10 +51,10 @@ void Player::keyPressEvent(QKeyEvent *event)
         this->scene->addItem(bullet);
         bullet->setPos(x()+40, y());
         //sound
-        // if (bulletsound-> state()==QMediaPlayer :: PlayingState){
-        //     bulletsound->setPos(0);
-        // }
-        // else  bulletsound -> play();
+        if (bulletsound-> state()==QMediaPlayer :: PlayingState){
+           bulletsound->setPos(0);
+         }
+         else  bulletsound -> play();
     }
 
 

@@ -38,10 +38,10 @@ void Bullet:: move(){
             scene()->removeItem(this);
             delete colliding_items[i];
             delete this;
-            // if (chickensound-> state()==QMediaPlayer :: PlayingState){
-            //     chickensound->setPos(0);
-            // }
-            // else  chickensound -> play();
+             if (chickensound-> state()==QMediaPlayer :: PlayingState){
+              chickensound->setMedia(":/soundssss/chicken sound.mp3");
+            }
+             else  chickensound -> play();
             return;
         }
 

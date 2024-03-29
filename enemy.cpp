@@ -4,8 +4,8 @@
 Enemy::Enemy(Player* p) {
 // <<<<<<< HEAD
 
-    // gameoversound = new QMediaPlayer();
-    // gameoversound->setMedia(":/sounds/gameover sound.mp3");
+     gameoversound = new QMediaPlayer();
+    gameoversound->setMedia(":/soundssss/gameover sound.mp3");
 
     rect = p;
     // QGraphicsPixmapItem * pixmap1;
@@ -71,10 +71,10 @@ void Enemy::collide()
             {
                 game_over*  gameOver = new game_over;
                 gameOver->show();
-                // if (chickensound-> state()==QMediaPlayer :: PlayingState){
-                //     chickensound->setPos(0);
-                // }
-                // else  chickensound -> play();
+                 if (chickensound-> state()==QMediaPlayer :: PlayingState){
+                     chickensound->setPos(0);
+                 }
+                 else  chickensound -> play();
 
                 return;
             }

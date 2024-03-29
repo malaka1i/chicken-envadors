@@ -9,8 +9,7 @@
 #include "player.h"
 #include "ui_game_over.h"
 #include"game_over.h"
-// #include"main.cpp"
-// #include <QMediaPlayer>
+#include <QMediaPlayer>
 
 
 class Player;

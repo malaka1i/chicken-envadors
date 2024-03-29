@@ -8,10 +8,7 @@
 #include "health_score.h"
 #include <QDebug>
 #include <QGraphicsPixmapItem>
-// #include "enemy.h"
-
-// #include"main.cpp"
-// #include <QMediaPlayer>
+ #include <QMediaPlayer>
 
 
 class Player: public QObject, public QGraphicsPixmapItem
